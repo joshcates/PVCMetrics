@@ -38,6 +38,8 @@ def runScoring(truth, test):
     docker container for this repository.
     """
 
+    print ("here!",truth,test)
+    
     command = (
         'python /covalic/code/helloWorld.py',
         truth,
